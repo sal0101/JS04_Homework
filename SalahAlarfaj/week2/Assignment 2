@@ -1,0 +1,23 @@
+// Assignment 2
+
+var streetNumber = ['34563', '84756', '4947', '4532', '3432', '29835'];
+var streetName = ['Dplphin Street', 'Okland Street', 'Farewell Street', 'Clarck Street', 'Hollywood Street'];
+
+var cityName = ['Chicgo', 'Oshkosh', 'Denver', 'California', 'Riyadh'];
+
+var stateName = ['IL', 'RD', 'NY', 'WU', 'OH'];
+
+
+var zipCode = ['45433', '68913', '34534', '35321', '89788'];
+
+var streetNumber_r = Math.floor((Math.random() * streetNumber.length));
+var streetName_r = Math.floor((Math.random() * streetName.length));
+
+var cityName_r = Math.floor((Math.random() * cityName.length));
+
+var stateName_r = Math.floor((Math.random() * stateName.length));
+
+var zipCode_r = Math.floor((Math.random() * zipCode.length));
+
+
+console.log(streetNumber[streetNumber_r]+" "+streetName[streetName_r]+", "+cityName[cityName_r]+" "+stateName[stateName_r]+", "+zipCode[zipCode_r]);
